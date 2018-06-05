@@ -1,3 +1,26 @@
-<p>
-  login-page works!
-</p>
+<div class="flex-center height-100">
+  <mat-card class="login-card">
+    <mat-card-title>Login</mat-card-title>
+    <mat-card-content class="flex-center">
+      <form class="flex-center" [formGroup]="loginForm">
+        <mat-form-field>
+          <input matInput placeholder="username" type="text" formControlName="username">
+          <mat-error>
+            <div>
+              Username is required
+            </div>
+          </mat-error>
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput placeholder="password" type="text" formControlName="password">
+          <mat-error>
+            <div>
+              Password is required
+            </div>
+          </mat-error>
+        </mat-form-field>
+      </form>
+      <button mat-raised-button (click)="login()">login</button>
+    </mat-card-content>
+  </mat-card>
+</div>

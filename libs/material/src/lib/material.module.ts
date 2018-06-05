@@ -1,6 +1,37 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
+import {
+  MatFormFieldModule,
+  MatInputModule,
+  MatCardModule,
+  MatButtonModule,
+  MatSidenavModule,
+  MatListModule,
+  MatIconModule,
+  MatToolbarModule,
+  MatProgressSpinnerModule,
+  MatMenuModule,
+  MatTableModule,
+  MatSelectModule,
+} from '@angular/material';
+
+const MODULES = [
+  MatFormFieldModule,
+  MatInputModule,
+  MatCardModule,
+  MatButtonModule,
+  MatSidenavModule,
+  MatListModule,
+  MatIconModule,
+  MatToolbarModule,
+  MatProgressSpinnerModule,
+  MatMenuModule,
+  MatTableModule,
+  MatSelectModule
+];
+
 @NgModule({
-  imports: [CommonModule]
+  imports: [MODULES],
+  exports: [MODULES]
 })
 export class MaterialModule {}

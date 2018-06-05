@@ -50,6 +50,12 @@
         "nrg",
         "badges"
       ]
+    },
+    "pmi-dashboard": {
+      "tags": [
+        "pmi",
+        "dashboard"
+      ]
     }
   }
 }

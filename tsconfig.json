@@ -67,6 +67,12 @@
       ],
       "@encore/nrg/badges": [
         "libs/nrg/badges/src/index.ts"
+      ],
+      "pmi-dashboard/*": [
+        "dist/pmi-dashboard/*"
+      ],
+      "@encore/pmi/dashboard": [
+        "libs/pmi/dashboard/src/index.ts"
       ]
     }
   }

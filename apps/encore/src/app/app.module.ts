@@ -1,8 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { NxModule } from '@nrwl/nx';
+
+const routes: Routes = [
+  { path: '', loadChildren: '@encore/authentication#AuthenticationModule' },
+];
 
 @NgModule({
   declarations: [
@@ -10,7 +15,8 @@ import { NxModule } from '@nrwl/nx';
   ],
   imports: [
     BrowserModule,
-    NxModule.forRoot()
+    NxModule.forRoot(),
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]

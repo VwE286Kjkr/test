@@ -3,9 +3,14 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Route } from '@angular/router';
 import { LoginPageComponent } from './login-page/login-page.component';
 
-export const authenticationRoutes: Route[] = [];
+export const authenticationRoutes: Route[] = [{ path: '', component: LoginPageComponent }];
 @NgModule({
-  imports: [CommonModule, RouterModule],
-  declarations: [LoginPageComponent]
+  imports: [
+    CommonModule,
+    RouterModule.forChild([...authenticationRoutes])
+  ],
+  declarations: [
+    LoginPageComponent
+  ]
 })
-export class AuthenticationModule {}
+export class AuthenticationModule { }

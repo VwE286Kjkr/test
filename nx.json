@@ -33,6 +33,11 @@
         "pmp",
         "media"
       ]
+    },
+    "material": {
+      "tags": [
+        "material"
+      ]
     }
   }
 }

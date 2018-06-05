@@ -49,6 +49,12 @@
       ],
       "@encore/pmp/media": [
         "libs/pmp/media/src/index.ts"
+      ],
+      "material/*": [
+        "dist/material/*"
+      ],
+      "@encore/material": [
+        "libs/material/src/index.ts"
       ]
     }
   }

@@ -61,6 +61,12 @@
       ],
       "@encore/nrg/levels": [
         "libs/nrg/levels/src/index.ts"
+      ],
+      "nrg-badges/*": [
+        "dist/nrg-badges/*"
+      ],
+      "@encore/nrg/badges": [
+        "libs/nrg/badges/src/index.ts"
       ]
     }
   }

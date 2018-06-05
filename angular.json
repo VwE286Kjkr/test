@@ -317,6 +317,34 @@
           }
         }
       }
+    },
+    "nrg-badges": {
+      "root": "libs/nrg/badges",
+      "sourceRoot": "libs/nrg/badges/src",
+      "projectType": "library",
+      "prefix": "encore",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/nrg/badges/src/test.ts",
+            "tsConfig": "libs/nrg/badges/tsconfig.spec.json",
+            "karmaConfig": "libs/nrg/badges/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/nrg/badges/tsconfig.lib.json",
+              "libs/nrg/badges/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "encore",

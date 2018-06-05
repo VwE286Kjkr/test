@@ -44,6 +44,12 @@
         "nrg",
         "levels"
       ]
+    },
+    "nrg-badges": {
+      "tags": [
+        "nrg",
+        "badges"
+      ]
     }
   }
 }

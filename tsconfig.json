@@ -55,6 +55,12 @@
       ],
       "@encore/material": [
         "libs/material/src/index.ts"
+      ],
+      "nrg-levels/*": [
+        "dist/nrg-levels/*"
+      ],
+      "@encore/nrg/levels": [
+        "libs/nrg/levels/src/index.ts"
       ]
     }
   }

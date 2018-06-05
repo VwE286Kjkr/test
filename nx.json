@@ -38,6 +38,12 @@
       "tags": [
         "material"
       ]
+    },
+    "nrg-levels": {
+      "tags": [
+        "nrg",
+        "levels"
+      ]
     }
   }
 }

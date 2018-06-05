@@ -6,6 +6,11 @@
     },
     "encore-e2e": {
       "tags": []
+    },
+    "authentication": {
+      "tags": [
+        "authentication"
+      ]
     }
   }
 }

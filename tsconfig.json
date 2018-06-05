@@ -19,6 +19,12 @@
     "paths": {
       "@encore/*": [
         "libs/*"
+      ],
+      "authentication/*": [
+        "dist/authentication/*"
+      ],
+      "@encore/authentication": [
+        "libs/authentication/src/index.ts"
       ]
     }
   }

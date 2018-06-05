@@ -373,6 +373,34 @@
           }
         }
       }
+    },
+    "pmi-reports": {
+      "root": "libs/pmi/reports",
+      "sourceRoot": "libs/pmi/reports/src",
+      "projectType": "library",
+      "prefix": "encore",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/pmi/reports/src/test.ts",
+            "tsConfig": "libs/pmi/reports/tsconfig.spec.json",
+            "karmaConfig": "libs/pmi/reports/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/pmi/reports/tsconfig.lib.json",
+              "libs/pmi/reports/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "encore",

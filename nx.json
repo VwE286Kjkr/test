@@ -56,6 +56,12 @@
         "pmi",
         "dashboard"
       ]
+    },
+    "pmi-reports": {
+      "tags": [
+        "pmi",
+        "reports"
+      ]
     }
   }
 }

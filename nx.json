@@ -27,6 +27,12 @@
         "pmp",
         "affiliates"
       ]
+    },
+    "pmp-media": {
+      "tags": [
+        "pmp",
+        "media"
+      ]
     }
   }
 }

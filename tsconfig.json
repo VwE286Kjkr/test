@@ -43,6 +43,12 @@
       ],
       "@encore/pmp/affiliates": [
         "libs/pmp/affiliates/src/index.ts"
+      ],
+      "pmp-media/*": [
+        "dist/pmp-media/*"
+      ],
+      "@encore/pmp/media": [
+        "libs/pmp/media/src/index.ts"
       ]
     }
   }

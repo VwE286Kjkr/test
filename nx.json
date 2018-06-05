@@ -1,0 +1,11 @@
+{
+  "npmScope": "encore",
+  "projects": {
+    "encore": {
+      "tags": []
+    },
+    "encore-e2e": {
+      "tags": []
+    }
+  }
+}

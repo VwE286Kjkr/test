@@ -37,6 +37,12 @@
       ],
       "@encore/log-service": [
         "libs/log-service/src/index.ts"
+      ],
+      "pmp-affiliates/*": [
+        "dist/pmp-affiliates/*"
+      ],
+      "@encore/pmp/affiliates": [
+        "libs/pmp/affiliates/src/index.ts"
       ]
     }
   }

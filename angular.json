@@ -205,6 +205,34 @@
           }
         }
       }
+    },
+    "pmp-affiliates": {
+      "root": "libs/pmp/affiliates",
+      "sourceRoot": "libs/pmp/affiliates/src",
+      "projectType": "library",
+      "prefix": "encore",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/pmp/affiliates/src/test.ts",
+            "tsConfig": "libs/pmp/affiliates/tsconfig.spec.json",
+            "karmaConfig": "libs/pmp/affiliates/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/pmp/affiliates/tsconfig.lib.json",
+              "libs/pmp/affiliates/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "encore",

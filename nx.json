@@ -21,6 +21,12 @@
       "tags": [
         "logging"
       ]
+    },
+    "pmp-affiliates": {
+      "tags": [
+        "pmp",
+        "affiliates"
+      ]
     }
   }
 }

@@ -31,6 +31,12 @@
       ],
       "@encore/authorization": [
         "libs/authorization/src/index.ts"
+      ],
+      "log-service/*": [
+        "dist/log-service/*"
+      ],
+      "@encore/log-service": [
+        "libs/log-service/src/index.ts"
       ]
     }
   }

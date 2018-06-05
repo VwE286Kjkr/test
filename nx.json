@@ -16,6 +16,11 @@
       "tags": [
         "authorization"
       ]
+    },
+    "log-service": {
+      "tags": [
+        "logging"
+      ]
     }
   }
 }

@@ -177,6 +177,34 @@
           }
         }
       }
+    },
+    "log-service": {
+      "root": "libs/log-service",
+      "sourceRoot": "libs/log-service/src",
+      "projectType": "library",
+      "prefix": "enc-logging",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/log-service/src/test.ts",
+            "tsConfig": "libs/log-service/tsconfig.spec.json",
+            "karmaConfig": "libs/log-service/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/log-service/tsconfig.lib.json",
+              "libs/log-service/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "encore",

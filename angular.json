@@ -149,6 +149,34 @@
           }
         }
       }
+    },
+    "authorization": {
+      "root": "libs/authorization",
+      "sourceRoot": "libs/authorization/src",
+      "projectType": "library",
+      "prefix": "enc-libs/authorization",
+      "architect": {
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "libs/authorization/src/test.ts",
+            "tsConfig": "libs/authorization/tsconfig.spec.json",
+            "karmaConfig": "libs/authorization/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/authorization/tsconfig.lib.json",
+              "libs/authorization/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "encore",

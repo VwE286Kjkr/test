@@ -25,6 +25,12 @@
       ],
       "@encore/authentication": [
         "libs/authentication/src/index.ts"
+      ],
+      "authorization/*": [
+        "dist/authorization/*"
+      ],
+      "@encore/authorization": [
+        "libs/authorization/src/index.ts"
       ]
     }
   }

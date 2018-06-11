@@ -79,6 +79,12 @@
       ],
       "@encore/pmi/reports": [
         "libs/pmi/reports/src/index.ts"
+      ],
+      "dashboard/*": [
+        "dist/dashboard/*"
+      ],
+      "@encore/dashboard": [
+        "libs/dashboard/src/index.ts"
       ]
     }
   }

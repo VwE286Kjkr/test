@@ -1,7 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { Routes } from '@angular/router';
+
+import { AppRoutingModule } from './app.routing.module';
 
 import { AppComponent } from './app.component';
 import { NxModule } from '@nrwl/nx';
@@ -20,12 +22,6 @@ import { PmiReportsModule } from '@encore/pmi/reports';
 import { PmpAffiliatesModule } from '@encore/pmp/affiliates';
 import { PmpMediaModule } from '@encore/pmp/media';
 
-const routes: Routes = [
-  { path: '', component: WelcomeComponent },
-  { path: 'account', children: authenticationRoutes },
-  { path: 'dashboard', component: DashboardComponent }
-];
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +31,7 @@ const routes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     NxModule.forRoot(),
-    RouterModule.forRoot(routes),
+    AppRoutingModule,
     MaterialModule,
     AuthenticationModule,
     AuthorizationModule,

@@ -1,0 +1,34 @@
+<mat-toolbar color="primary" class="header">
+  <mat-toolbar-row>
+    <span class="app-title">Welcome to EnCoRe Prototype</span>
+    <span class="spacer"></span>
+    <button mat-icon-button [routerLink]="['/']">
+      <mat-icon aria-label="Logout">exit_to_app</mat-icon>
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container class="container">
+
+  <mat-sidenav #sidenav mode="side" opened="true" class="sidenav">
+    <mat-list>
+      <mat-list-item class="menu-item">
+        <mat-icon mat-list-icon>folder</mat-icon>
+        <h4 mat-line>Affiliates</h4>
+      </mat-list-item>
+      <mat-list-item class="menu-item">
+        <mat-icon mat-list-icon>folder</mat-icon>
+        <h4 mat-line>Media</h4>
+      </mat-list-item>
+      <mat-list-item class="menu-item">
+        <mat-icon mat-list-icon>folder</mat-icon>
+        <h4 mat-line>Customers</h4>
+      </mat-list-item>
+    </mat-list>
+  </mat-sidenav>
+
+</mat-sidenav-container>
+
+<footer>
+  <mat-toolbar>Footer</mat-toolbar>
+</footer>

@@ -11,6 +11,7 @@
   ],
   "include": [
     "**/*.ts",
-    "../../libs/authentication/src/index.ts"
+    "../../libs/authentication/src/index.ts",
+    "../../libs/dashboard/src/index.ts"
   ]
 }

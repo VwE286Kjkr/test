@@ -22,6 +22,7 @@ import { PmpMediaModule } from '@encore/pmp/media';
 const routes: Routes = [
   { path: '', component: WelcomeComponent },
   { path: 'account', children: authenticationRoutes },
+  { path: 'dashboard', loadChildren: '@encore/dashboard#DashboardModule' }
 ];
 
 @NgModule({

@@ -6,6 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NxModule } from '@nrwl/nx';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { MaterialModule } from '@encore/material';
 
@@ -22,7 +23,7 @@ import { PmpMediaModule } from '@encore/pmp/media';
 const routes: Routes = [
   { path: '', component: WelcomeComponent },
   { path: 'account', children: authenticationRoutes },
-  { path: 'dashboard', loadChildren: '@encore/dashboard#DashboardModule' }
+  { path: 'dashboard', component: DashboardComponent }
 ];
 
 @NgModule({

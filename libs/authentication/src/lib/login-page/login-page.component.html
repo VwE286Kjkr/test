@@ -12,7 +12,7 @@
           </mat-error>
         </mat-form-field>
         <mat-form-field>
-          <input matInput placeholder="password" type="text" formControlName="password">
+          <input matInput placeholder="password" type="password" formControlName="password">
           <mat-error>
             <div>
               Password is required
@@ -20,7 +20,8 @@
           </mat-error>
         </mat-form-field>
       </form>
-      <button mat-raised-button (click)="login()">login</button>
+      <button class="login-button" mat-raised-button (click)="login()" [disabled]="loginForm.invalid">login</button>
     </mat-card-content>
   </mat-card>
+  <a class="back-to-welcome" [routerLink]="['/']">Back to Welcome Page</a>
 </div>

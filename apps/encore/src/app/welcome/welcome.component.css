@@ -1,0 +1,12 @@
+.center-content-horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+.app-title {
+    font-size: 2em;
+}
+
+.action-button {
+    margin: 0 10px;
+}

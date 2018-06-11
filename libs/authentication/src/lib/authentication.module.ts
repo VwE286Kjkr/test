@@ -6,7 +6,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from '@encore/material';
 
-export const authenticationRoutes: Route[] = [{ path: '', component: LoginPageComponent }];
+export const authenticationRoutes: Route[] = [{ path: 'login', component: LoginPageComponent }];
 @NgModule({
   imports: [
     CommonModule,

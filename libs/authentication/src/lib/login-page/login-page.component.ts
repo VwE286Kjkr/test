@@ -1,5 +1,6 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'enc-auth-login-page',
@@ -8,9 +9,7 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 })
 export class LoginPageComponent {
 
-  constructor() { }
-
-  @Output() submit = new EventEmitter<any>();
+  constructor(private router: Router) { }
 
   loginForm = new FormGroup({
     username: new FormControl('', [Validators.required]),
@@ -18,10 +17,11 @@ export class LoginPageComponent {
   });
 
   login() {
-    this.submit.emit({
-      username: this.loginForm.value.username,
-      password: this.loginForm.value.password
-    });
+    if (this.loginForm.valid) {
+      // assume the user is authenticated
+      this.router.navigate([`/`]);
+
+    }
   }
 
 }

@@ -13,6 +13,8 @@ import {
   MatMenuModule,
   MatTableModule,
   MatSelectModule,
+  MatPaginatorModule,
+  MatSortModule
 } from '@angular/material';
 
 const MODULES = [
@@ -27,7 +29,9 @@ const MODULES = [
   MatProgressSpinnerModule,
   MatMenuModule,
   MatTableModule,
-  MatSelectModule
+  MatSelectModule,
+  MatPaginatorModule,
+  MatSortModule
 ];
 
 @NgModule({

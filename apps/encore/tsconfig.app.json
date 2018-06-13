@@ -11,6 +11,8 @@
   ],
   "include": [
     "**/*.ts",
-    "../../libs/authentication/src/index.ts"
+    "../../libs/authentication/src/index.ts",
+    "../../libs/pmp/media/src/index.ts",
+    "../../libs/pmp/affiliates/src/index.ts"
   ]
 }

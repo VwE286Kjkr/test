@@ -290,62 +290,6 @@
         }
       }
     },
-    "nrg-levels": {
-      "root": "libs/nrg/levels",
-      "sourceRoot": "libs/nrg/levels/src",
-      "projectType": "library",
-      "prefix": "encore",
-      "architect": {
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "libs/nrg/levels/src/test.ts",
-            "tsConfig": "libs/nrg/levels/tsconfig.spec.json",
-            "karmaConfig": "libs/nrg/levels/karma.conf.js"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "libs/nrg/levels/tsconfig.lib.json",
-              "libs/nrg/levels/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
-        }
-      }
-    },
-    "nrg-badges": {
-      "root": "libs/nrg/badges",
-      "sourceRoot": "libs/nrg/badges/src",
-      "projectType": "library",
-      "prefix": "encore",
-      "architect": {
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "libs/nrg/badges/src/test.ts",
-            "tsConfig": "libs/nrg/badges/tsconfig.spec.json",
-            "karmaConfig": "libs/nrg/badges/karma.conf.js"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "libs/nrg/badges/tsconfig.lib.json",
-              "libs/nrg/badges/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
-        }
-      }
-    },
     "pmi-dashboard": {
       "root": "libs/pmi/dashboard",
       "sourceRoot": "libs/pmi/dashboard/src",
@@ -366,34 +310,6 @@
             "tsConfig": [
               "libs/pmi/dashboard/tsconfig.lib.json",
               "libs/pmi/dashboard/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
-        }
-      }
-    },
-    "pmi-reports": {
-      "root": "libs/pmi/reports",
-      "sourceRoot": "libs/pmi/reports/src",
-      "projectType": "library",
-      "prefix": "encore",
-      "architect": {
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "libs/pmi/reports/src/test.ts",
-            "tsConfig": "libs/pmi/reports/tsconfig.spec.json",
-            "karmaConfig": "libs/pmi/reports/karma.conf.js"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "libs/pmi/reports/tsconfig.lib.json",
-              "libs/pmi/reports/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

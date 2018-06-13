@@ -39,28 +39,10 @@
         "material"
       ]
     },
-    "nrg-levels": {
-      "tags": [
-        "nrg",
-        "levels"
-      ]
-    },
-    "nrg-badges": {
-      "tags": [
-        "nrg",
-        "badges"
-      ]
-    },
     "pmi-dashboard": {
       "tags": [
         "pmi",
         "dashboard"
-      ]
-    },
-    "pmi-reports": {
-      "tags": [
-        "pmi",
-        "reports"
       ]
     },
     "nrg-dashboard": {

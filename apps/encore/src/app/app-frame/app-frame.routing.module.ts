@@ -10,8 +10,8 @@ const appRoutes: Routes = [
         children: [
             { path: 'dashboard', loadChildren: '../dashboard/dashboard.module#DashboardModule' },
             { path: 'affiliates', loadChildren: '../affiliates/affiliates.module#AffiliatesModule' },
-            // { path: 'media', loadChildren: '@encore/pmp/affiliates#PmpAffiliatesModule', outlet: 'pmp' },
-            // { path: 'customers', loadChildren: '@encore/pmi/reports#PmiReportsModule', outlet: 'pmi' }
+            { path: 'media', loadChildren: '../media/media.module#MediaModule' },
+            { path: 'customers', loadChildren: '../customers/customers.module#CustomersModule' },
             { path: '', redirectTo: 'dashboard', pathMatch: 'full' }
         ]
     }

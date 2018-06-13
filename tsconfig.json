@@ -85,6 +85,12 @@
       ],
       "@encore/dashboard": [
         "libs/dashboard/src/index.ts"
+      ],
+      "nrg-dashboard/*": [
+        "dist/nrg-dashboard/*"
+      ],
+      "@encore/nrg/dashboard": [
+        "libs/nrg/dashboard/src/index.ts"
       ]
     }
   }

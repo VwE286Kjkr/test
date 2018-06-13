@@ -62,6 +62,12 @@
         "pmi",
         "reports"
       ]
+    },
+    "nrg-dashboard": {
+      "tags": [
+        "nrg",
+        "dashboard"
+      ]
     }
   }
 }

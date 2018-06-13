@@ -19,7 +19,7 @@ export class LoginPageComponent {
   login() {
     if (this.loginForm.valid) {
       // assume the user is authenticated
-      this.router.navigate([`/dashboard`]);
+      this.router.navigate([`/app`]);
 
     }
   }

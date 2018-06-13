@@ -3,6 +3,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { Routes } from '@angular/router';
 
+import { AppFrameModule } from './app-frame/app-frame.module';
 import { AppRoutingModule } from './app.routing.module';
 
 import { AppComponent } from './app.component';
@@ -12,15 +13,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { MaterialModule } from '@encore/material';
 
-import { AuthenticationModule, authenticationRoutes } from '@encore/authentication';
+import { AuthenticationModule } from '@encore/authentication';
 import { AuthorizationModule } from '@encore/authorization';
 import { LogServiceModule } from '@encore/log-service';
-import { NrgBadgesModule } from '@encore/nrg/badges';
-import { NrgLevelsModule } from '@encore/nrg/levels';
-import { PmiDashboardModule } from '@encore/pmi/dashboard';
-import { PmiReportsModule } from '@encore/pmi/reports';
-import { PmpAffiliatesModule } from '@encore/pmp/affiliates';
-import { PmpMediaModule } from '@encore/pmp/media';
+
 
 @NgModule({
   declarations: [
@@ -36,12 +32,7 @@ import { PmpMediaModule } from '@encore/pmp/media';
     AuthenticationModule,
     AuthorizationModule,
     LogServiceModule,
-    NrgBadgesModule,
-    NrgLevelsModule,
-    PmiDashboardModule,
-    PmiReportsModule,
-    PmpAffiliatesModule,
-    PmpMediaModule
+    AppFrameModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { AffiliatesComponent } from './affiliates/affiliates.component';
+import { DashboardComponent } from './dashboard.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -10,6 +10,7 @@ import { AffiliatesComponent } from './affiliates/affiliates.component';
       /* {path: '', pathMatch: 'full', component: InsertYourComponentHere} */
     ])
   ],
-  declarations: [AffiliatesComponent]
+  declarations: [DashboardComponent],
+  exports: [DashboardComponent]
 })
-export class PmiReportsModule {}
+export class NrgDashboardModule {}

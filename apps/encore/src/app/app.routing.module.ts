@@ -5,8 +5,6 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { AppFrameComponent } from './app-frame/app-frame.component';
 import { authenticationRoutes } from '@encore/authentication';
 
-import { PmpAffiliatesRoutes } from '@encore/pmp/affiliates';
-
 const routes: Routes = [
     { path: '', component: WelcomeComponent },
     { path: 'account', children: authenticationRoutes },

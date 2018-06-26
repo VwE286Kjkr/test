@@ -1,0 +1,17 @@
+# Each line is a file pattern followed by one or more owners.
+
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# @DUHbTPDeDQ will be requested for
+# review when someone opens a pull request.
+*       @DUHbTPDeDQ
+
+# Order is important; the last matching pattern takes the most
+# precedence. When someone opens a pull request that only
+# modifies TS files, only @PLZ1bpep6S and not the global
+# owner(s) will be requested for a review.
+/libs/pmi/    @PLZ1bpep6S
+
+# @pEEsZAjjTU owns any file in the `/libs/pmp`
+# directory in the root of your repository.
+/libs/pmp/ @pEEsZAjjTU

@@ -34,7 +34,6 @@ import { LogServiceModule } from '@encore/log-service';
     LogServiceModule,
     AppFrameModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

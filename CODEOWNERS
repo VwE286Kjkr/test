@@ -2,7 +2,7 @@
 
 # These owners will be the default owners for everything in
 # the repo. Unless a later match takes precedence,
-# @global-owner1 and @global-owner2 will be requested for
+# @DUHbTPDeDQ will be requested for
 # review when someone opens a pull request.
 *       @DUHbTPDeDQ
 
@@ -10,4 +10,8 @@
 # precedence. When someone opens a pull request that only
 # modifies TS files, only @PLZ1bpep6S and not the global
 # owner(s) will be requested for a review.
-*.ts    @PLZ1bpep6S
+/libs/pmi/    @PLZ1bpep6S
+
+# @pEEsZAjjTU owns any file in the `/libs/pmp`
+# directory in the root of your repository.
+/libs/pmp/ @pEEsZAjjTU

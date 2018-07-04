@@ -1,3 +1,5 @@
+[![Build status](https://netrefer.visualstudio.com/RnD/_apis/build/status/encore-test?branch=master)](https://netrefer.visualstudio.com/RnD/_build/latest?definitionId=173&branch=master)]
+
 # Encore
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.

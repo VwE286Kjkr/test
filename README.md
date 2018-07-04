@@ -1,4 +1,4 @@
-[![Build status](https://netrefer.visualstudio.com/RnD/_apis/build/status/encore-test?branch=master)](https://netrefer.visualstudio.com/RnD/_build/latest?definitionId=173&branch=master)]
+[![Build status](https://netrefer.visualstudio.com/RnD/_apis/build/status/encore-test?branch=master)](https://netrefer.visualstudio.com/RnD/_build/latest?definitionId=173&branch=master)
 
 # Encore
 

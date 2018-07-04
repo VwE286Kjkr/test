@@ -1,5 +1,7 @@
-[![Build status](https://netrefer.visualstudio.com/RnD/_apis/build/status/encore-test?branch=master)]
+[![Build status](https://netrefer.visualstudio.com/_apis/public/build/definitions/5b999bb5-eab3-4f4b-a4ca-232d9691d191/173/badge?branch=master)]
 (https://netrefer.visualstudio.com/RnD/_build/latest?definitionId=173&branch=master)
+
+[![Build Status](https://vscode.visualstudio.com/RnD/_apis/build/definitions/a4cdce18-a05c-4bb8-9476-5d07e63bfd76/1/badge?branch=master)](https://aka.ms/vscode-builds)
 
 # Encore
 

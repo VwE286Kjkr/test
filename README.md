@@ -1,3 +1,5 @@
+[![Build status](https://netrefer.visualstudio.com/_apis/public/build/definitions/5b999bb5-eab3-4f4b-a4ca-232d9691d191/173/badge?branch=master)](https://netrefer.visualstudio.com/RnD/_build/latest?definitionId=173&branch=master)
+
 # Encore
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
